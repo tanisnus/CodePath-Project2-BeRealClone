@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import ParseSwift
 
 struct ContentView: View {
+    @StateObject private var authManager = AuthenticationManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if authManager.isAuthenticated {
+                MainTabView()
+            } else {
+                AuthenticationView()
+            }
         }
-        .padding()
+        .environmentObject(authManager)
     }
 }
 

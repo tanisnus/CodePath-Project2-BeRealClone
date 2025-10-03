@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8DC8C7362E8F883A008F0D15 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8DC8C7352E8F883A008F0D15 /* ParseSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8DC8C7232E8F8104008F0D15 /* CodePath-Project2-BeRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodePath-Project2-BeRealClone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC8C7362E8F883A008F0D15 /* ParseSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "CodePath-Project2-BeRealClone";
 			packageProductDependencies = (
+				8DC8C7352E8F883A008F0D15 /* ParseSwift */,
 			);
 			productName = "CodePath-Project2-BeRealClone";
 			productReference = 8DC8C7232E8F8104008F0D15 /* CodePath-Project2-BeRealClone.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 8DC8C71A2E8F8104008F0D15;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8DC8C7342E8F883A008F0D15 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8DC8C7242E8F8104008F0D15 /* Products */;
 			projectDirPath = "";
@@ -322,6 +331,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DC8C7342E8F883A008F0D15 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DC8C7352E8F883A008F0D15 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DC8C7342E8F883A008F0D15 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DC8C71B2E8F8104008F0D15 /* Project object */;
 }
