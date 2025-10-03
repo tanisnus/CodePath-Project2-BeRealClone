@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 - [X] Users can pull to refresh their feed and see a loading indicator
 - [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [X] Users can see location and time of photo upload in the feed	
+- [ ] Users can see location and time of photo upload in the feed	
 - [X] User stays logged in when app is closed and open again	
 
 
