@@ -4,7 +4,7 @@ Submitted by: **Tanis Sarbatananda**
 
 **Be Real Clone** is an app that allows users to share their activities throughout the day with others 
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
